@@ -33,7 +33,7 @@ export const LOCALES: LocaleEntry[] = [
 ];
 
 export const DEFAULT_LOCALE = "en";
-export const STORAGE_KEY = "paperclip.ru.locale";
+export const STORAGE_KEY = "plugin.paperclip.ru.locale";
 
 export function getCurrentLocale(): string {
   if (typeof localStorage === "undefined") return DEFAULT_LOCALE;

@@ -2,13 +2,13 @@ import { definePlugin, runWorker } from "@paperclipai/plugin-sdk";
 
 const plugin = definePlugin({
   async setup(ctx) {
-    ctx.logger.info("paperclip-ru plugin started");
+    ctx.logger.info("plugin-paperclip-ru plugin started");
     // Language preference is stored in localStorage on the client side.
     // No server-side state is needed for the current implementation.
   },
 
   async onHealth() {
-    return { status: "ok", message: "paperclip-ru ready" };
+    return { status: "ok", message: "plugin-paperclip-ru ready" };
   },
 });
 

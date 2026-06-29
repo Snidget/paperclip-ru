@@ -1,4 +1,4 @@
-# paperclip-ru
+# plugin-paperclip-ru
 
 Русская локализация интерфейса для [Paperclip](https://github.com/paperclipai/paperclip).
 Плагин добавляет переключатель языка и переводит английские элементы интерфейса Paperclip на русский без изменения исходного кода Paperclip.
@@ -17,7 +17,7 @@
 3. Введите имя npm-пакета:
 
 ```text
-paperclip-ru
+plugin-paperclip-ru
 ```
 
 4. Нажмите **Install**.
@@ -64,7 +64,7 @@ npm publish --access public --registry https://registry.npmjs.org
 ## Структура
 
 ```text
-paperclip-ru/
+plugin-paperclip-ru/
 ├── package.json
 ├── scripts/
 │   ├── build-worker.mjs

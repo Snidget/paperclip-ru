@@ -1,5 +1,5 @@
 {
-  "name": "paperclip-ru",
+  "name": "plugin-paperclip-ru",
   "version": "1.0.5",
   "description": "Russian UI localization for Paperclip",
   "type": "module",
@@ -8,11 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Snidget/paperclip-ru.git"
+    "url": "git+https://github.com/Snidget/plugin-paperclip-ru.git"
   },
-  "homepage": "https://github.com/Snidget/paperclip-ru#readme",
+  "homepage": "https://github.com/Snidget/plugin-paperclip-ru#readme",
   "bugs": {
-    "url": "https://github.com/Snidget/paperclip-ru/issues"
+    "url": "https://github.com/Snidget/plugin-paperclip-ru/issues"
   },
   "license": "MIT",
   "files": [
