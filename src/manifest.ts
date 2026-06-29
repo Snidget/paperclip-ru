@@ -9,7 +9,7 @@ const manifest: PaperclipPluginManifestV1 = {
   version: PLUGIN_VERSION,
   displayName: "Language Pack",
   description:
-    "Multi-language UI support for Paperclip. Switch the interface language without modifying the host application. Currently includes Simplified Chinese (zh-CN).",
+    "Multi-language UI support for Paperclip. Switch the interface language without modifying the host application. Includes Simplified Chinese, Japanese, Korean, German, French, and Russian.",
   author: "hinet <63603636@qq.com>",
   categories: ["ui"],
   capabilities: ["ui.action.register", "instance.settings.register"],

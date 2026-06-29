@@ -25,8 +25,7 @@ export function LangSettingsPage(_props: PluginSettingsPageProps) {
         Language Pack
       </h2>
       <p style={{ color: "var(--muted-foreground)", marginBottom: 24, fontSize: 14 }}>
-        Select the display language for the Paperclip interface. The page will
-        reload to apply the change.
+        Select the display language for the Paperclip interface. The page will reload to apply the change.
       </p>
 
       <div style={{ display: "flex", flexDirection: "column", gap: 8, marginBottom: 24 }}>

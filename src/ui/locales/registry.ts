@@ -54,6 +54,12 @@ export const LOCALES: LocaleEntry[] = [
     englishName: "French",
     flag: "🇫🇷",
   },
+  {
+    code: "ru",
+    nativeName: "Русский",
+    englishName: "Russian",
+    flag: "🇷🇺",
+  },
 ];
 
 export const DEFAULT_LOCALE = "en";

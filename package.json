@@ -1,5 +1,5 @@
 {
-  "name": "paperclip-lang",
+  "name": "@snidget/paperclip-lang",
   "version": "1.0.5",
   "description": "Multi-language UI support for Paperclip",
   "type": "module",
@@ -9,13 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hinet/paperclip-lang"
+    "url": "https://github.com/snidget/paperclip-lang"
   },
-  "homepage": "https://github.com/hinet/paperclip-lang#readme",
+  "homepage": "https://github.com/snidget/paperclip-lang#readme",
   "bugs": {
-    "url": "https://github.com/hinet/paperclip-lang/issues"
+    "url": "https://github.com/snidget/paperclip-lang/issues"
   },
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "dist/"
   ],

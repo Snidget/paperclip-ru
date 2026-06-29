@@ -3,6 +3,7 @@ import { ja } from "./locales/ja.js";
 import { ko } from "./locales/ko.js";
 import { de } from "./locales/de.js";
 import { fr } from "./locales/fr.js";
+import { ru } from "./locales/ru.js";
 
 /**
  * Maps locale codes to their translation dictionaries.
@@ -17,4 +18,5 @@ export const LOCALE_DICTS: Record<string, Record<string, string>> = {
   "ko": ko,
   "de": de,
   "fr": fr,
+  "ru": ru,
 };
