@@ -22,7 +22,7 @@ export function LangSettingsPage(_props: PluginSettingsPageProps) {
   return (
     <div style={{ padding: 24, maxWidth: 480 }}>
       <h2 style={{ fontSize: 18, fontWeight: 600, marginBottom: 8 }}>
-        Language Pack
+        Russian Language Pack
       </h2>
       <p style={{ color: "var(--muted-foreground)", marginBottom: 24, fontSize: 14 }}>
         Select the display language for the Paperclip interface. The page will reload to apply the change.

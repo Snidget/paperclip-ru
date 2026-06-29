@@ -1,9 +1,9 @@
 export interface LocaleEntry {
-  /** BCP 47 language tag, e.g. "zh-CN" */
+  /** BCP 47 language tag, e.g. "ru" */
   code: string;
-  /** Native display name, e.g. "中文（简体）" */
+  /** Native display name, e.g. "Русский" */
   nativeName: string;
-  /** English display name, e.g. "Chinese (Simplified)" */
+  /** English display name, e.g. "Russian" */
   englishName: string;
   /** Emoji flag for visual identification */
   flag: string;
@@ -25,36 +25,6 @@ export const LOCALES: LocaleEntry[] = [
     flag: "🇺🇸",
   },
   {
-    code: "zh-CN",
-    nativeName: "中文(简体)",
-    englishName: "Chinese (Simplified)",
-    flag: "🇨🇳",
-  },
-  {
-    code: "ja",
-    nativeName: "日本語",
-    englishName: "Japanese",
-    flag: "🇯🇵",
-  },
-  {
-    code: "ko",
-    nativeName: "한국어",
-    englishName: "Korean",
-    flag: "🇰🇷",
-  },
-  {
-    code: "de",
-    nativeName: "Deutsch",
-    englishName: "German",
-    flag: "🇩🇪",
-  },
-  {
-    code: "fr",
-    nativeName: "Français",
-    englishName: "French",
-    flag: "🇫🇷",
-  },
-  {
     code: "ru",
     nativeName: "Русский",
     englishName: "Russian",
@@ -63,7 +33,7 @@ export const LOCALES: LocaleEntry[] = [
 ];
 
 export const DEFAULT_LOCALE = "en";
-export const STORAGE_KEY = "paperclip.lang.locale";
+export const STORAGE_KEY = "paperclip.ru.locale";
 
 export function getCurrentLocale(): string {
   if (typeof localStorage === "undefined") return DEFAULT_LOCALE;

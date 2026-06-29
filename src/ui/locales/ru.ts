@@ -27,6 +27,7 @@ export const ru: Record<string, string> = {
   "API Keys": "API-ключи",
   "Language": "Язык",
   "Language Pack": "Языковой пакет",
+  "Russian Language Pack": "Русский языковой пакет",
   "Members": "Участники",
   "Billing": "Оплата",
   "Security": "Безопасность",

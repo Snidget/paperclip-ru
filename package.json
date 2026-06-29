@@ -1,11 +1,10 @@
 {
   "name": "paperclip-ru",
   "version": "1.0.5",
-  "description": "Multi-language UI support for Paperclip",
+  "description": "Russian UI localization for Paperclip",
   "type": "module",
   "author": {
-    "name": "hinet",
-    "email": "63603636@qq.com"
+    "name": "Snidget"
   },
   "repository": {
     "type": "git",
@@ -28,8 +27,8 @@
     "ui": "./dist/ui/"
   },
   "scripts": {
-    "build": "tsc && node ./scripts/build-worker.mjs && node ./scripts/build-ui.mjs",
-    "clean": "rm -rf dist",
+    "build": "node ./scripts/clean-dist.mjs && tsc && node ./scripts/build-worker.mjs && node ./scripts/build-ui.mjs",
+    "clean": "node ./scripts/clean-dist.mjs",
     "typecheck": "pnpm --filter @paperclipai/plugin-sdk build && tsc --noEmit"
   },
   "devDependencies": {

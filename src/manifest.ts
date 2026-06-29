@@ -1,16 +1,16 @@
 import type { PaperclipPluginManifestV1 } from "@paperclipai/plugin-sdk";
 
-const PLUGIN_ID = "paperclip.lang";
+const PLUGIN_ID = "paperclip.ru";
 const PLUGIN_VERSION = "1.0.5";
 
 const manifest: PaperclipPluginManifestV1 = {
   id: PLUGIN_ID,
   apiVersion: 1,
   version: PLUGIN_VERSION,
-  displayName: "Language Pack",
+  displayName: "Russian Language Pack",
   description:
-    "Multi-language UI support for Paperclip. Switch the interface language without modifying the host application. Includes Simplified Chinese, Japanese, Korean, German, French, and Russian.",
-  author: "hinet <63603636@qq.com>",
+    "Russian UI localization for Paperclip. Switch between the original English interface and Russian without modifying the host application.",
+  author: "Snidget",
   categories: ["ui"],
   capabilities: ["ui.action.register", "instance.settings.register"],
   entrypoints: {
@@ -28,7 +28,7 @@ const manifest: PaperclipPluginManifestV1 = {
       {
         type: "settingsPage",
         id: "lang-settings",
-        displayName: "Language Pack",
+        displayName: "Russian Language Pack",
         exportName: "LangSettingsPage",
       },
     ],
